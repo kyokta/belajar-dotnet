@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/images/kyokta.png",
+      "PackagePath": "staticwebassets/images/kyokta.png"
+    },
+    {
+      "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/images/pemandangan.jpeg",
+      "PackagePath": "staticwebassets/images/pemandangan.jpeg"
+    },
+    {
       "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
