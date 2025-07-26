@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BelajarCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ff73231a0a11feceac7b3061af974ab84c14d67")]
 [assembly: System.Reflection.AssemblyProductAttribute("BelajarCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BelajarCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

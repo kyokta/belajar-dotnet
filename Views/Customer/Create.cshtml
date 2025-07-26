@@ -1,0 +1,34 @@
+@model BelajarCRUD.Models.Customer
+
+@{
+    ViewData["Title"] = "Buat Customer Baru";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div class="form-group mb-3">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="BirthDate" class="control-label"></label>
+                <input asp-for="BirthDate" type="date" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Simpan" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Batal</a>
+            </div>
+        </form>
+    </div>
+</div>

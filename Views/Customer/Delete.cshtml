@@ -1,0 +1,29 @@
+@model BelajarCRUD.Models.Customer
+
+@{
+    ViewData["Title"] = "Konfirmasi Hapus";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3 class="text-danger">Anda yakin ingin menghapus data ini?</h3>
+<hr />
+
+<div>
+    <h4>Customer</h4>
+    <dl class="row">
+        <dt class="col-sm-3">Nama</dt>
+        <dd class="col-sm-9">@Model.CustomerName</dd>
+
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Tanggal Lahir</dt>
+        <dd class="col-sm-9">@Model.BirthDate.ToShortDateString()</dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CustomerID" />
+        <input type="submit" value="Hapus" class="btn btn-danger" /> |
+        <a asp-action="Index">Batal</a>
+    </form>
+</div>

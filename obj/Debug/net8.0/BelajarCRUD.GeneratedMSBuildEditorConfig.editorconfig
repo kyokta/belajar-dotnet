@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

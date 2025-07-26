@@ -28,3 +28,11 @@
 /Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/obj/Debug/net8.0/BelajarCRUD.pdb
 /Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/obj/Debug/net8.0/BelajarCRUD.genruntimeconfig.cache
 /Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/obj/Debug/net8.0/ref/BelajarCRUD.dll
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/bin/Debug/net8.0/MySqlConnector.dll
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/obj/Debug/net8.0/BelajarCRUD.csproj.AssemblyReference.cache
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/obj/Debug/net8.0/BelajarCRUD.sourcelink.json
+/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/obj/Debug/net8.0/BelajarC.10C6F631.Up2Date
