@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BelajarCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ff73231a0a11feceac7b3061af974ab84c14d67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5131ced35146cc211e77c8b3ed7a5294ac84ed1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BelajarCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BelajarCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
