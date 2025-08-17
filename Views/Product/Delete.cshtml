@@ -1,0 +1,43 @@
+@model BelajarCRUD.Models.Product
+
+@{
+    ViewData["Title"] = "Hapus Produk";
+    Layout = "_LayoutDashboard";
+}
+
+<div class="container-fluid">
+    <h1 class="text-danger">Hapus Produk</h1>
+    <h3 class="text-warning">Apakah Anda yakin ingin menghapus data ini?</h3>
+    
+    <hr />
+
+    <div class="card shadow-sm mb-4" style="max-width: 600px;">
+        <div class="card-header">
+            <h4>Detail Produk</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Nama Produk</dt>
+                <dd class="col-sm-8">@Model.ProductName</dd>
+
+                <dt class="col-sm-4">Deskripsi</dt>
+                <dd class="col-sm-8">@Model.Description</dd>
+
+                <dt class="col-sm-4">Harga</dt>
+                <dd class="col-sm-8">@Model.Price.ToString("C", new System.Globalization.CultureInfo("id-ID"))</dd>
+
+                <dt class="col-sm-4">Stok</dt>
+                <dd class="col-sm-8">@Model.Stock</dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ProductID" />
+        
+        <div class="form-group">
+            <input type="submit" value="Hapus" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Batal</a>
+        </div>
+    </form>
+</div>

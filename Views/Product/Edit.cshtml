@@ -1,0 +1,77 @@
+@model BelajarCRUD.ViewModels.Product.ProductEditViewModel;
+
+@{
+    ViewData["Title"] = "Edit Produk";
+    Layout = "_LayoutDashboard";
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Edit Produk: @Model.ProductName</h1>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="ProductID" />
+                <input type="hidden" asp-for="ExistingImageUrl" />
+                
+                <div class="row">
+                    <div class="col-md-8">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                        <div class="form-group mb-3">
+                            <label asp-for="ProductName" class="control-label"></label>
+                            <input asp-for="ProductName" class="form-control" />
+                            <span asp-validation-for="ProductName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Description" class="control-label"></label>
+                            <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Price" class="control-label"></label>
+                                    <input asp-for="Price" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Stock" class="control-label"></label>
+                                    <input asp-for="Stock" class="form-control" />
+                                    <span asp-validation-for="Stock" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group mb-3">
+                            <label class="control-label">Gambar Saat Ini</label>
+                            @if (!string.IsNullOrEmpty(Model.ExistingImageUrl))
+                            {
+                                <img src="~/images/products/@Model.ExistingImageUrl" class="img-thumbnail d-block mb-2" alt="Gambar Produk" />
+                            }
+                            else
+                            {
+                                <p class="text-muted">Tidak ada gambar.</p>
+                            }
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="ImageFile" class="control-label"></label>
+                            <input asp-for="ImageFile" class="form-control" type="file" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" value="Simpan Perubahan" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Batal</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

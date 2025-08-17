@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets/images/kyokta.png"
     },
     {
-      "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/images/pemandangan.jpeg",
-      "PackagePath": "staticwebassets/images/pemandangan.jpeg"
+      "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/images/pemandangan.jpg",
+      "PackagePath": "staticwebassets/images/pemandangan.jpg"
+    },
+    {
+      "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/images/products/01ed93a3-ed2e-46a2-9831-1ed9263e2851_kkn.jpg",
+      "PackagePath": "staticwebassets/images/products/01ed93a3-ed2e-46a2-9831-1ed9263e2851_kkn.jpg"
+    },
+    {
+      "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/images/products/3a1aa0ab-e2f1-4a8b-9fb0-48f34ca03480_unnamed.png",
+      "PackagePath": "staticwebassets/images/products/3a1aa0ab-e2f1-4a8b-9fb0-48f34ca03480_unnamed.png"
     },
     {
       "Id": "/Users/macbookpro/Documents/WORKS/dotnet/BelajarCRUD/wwwroot/js/site.js",

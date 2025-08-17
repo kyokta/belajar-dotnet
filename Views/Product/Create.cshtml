@@ -1,0 +1,48 @@
+@model BelajarCRUD.ViewModels.Product.ProductCreateViewModel
+
+@{
+    ViewData["Title"] = "Buat Product Baru";
+}
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="form-group mb-3">
+                    <label asp-for="ProductName" class="control-label"></label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group mb-3">
+                    <label asp-for="ImageFile" class="control-label"></label>
+                    <input asp-for="ImageFile" class="form-control" type="file" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Stock" class="control-label"></label>
+                    <input asp-for="Stock" class="form-control" />
+                    <span asp-validation-for="Stock" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Simpan" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Batal</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
